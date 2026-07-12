@@ -1,4 +1,4 @@
-# 🚀 TeleportMod v1.3.6 (Fabric 1.21.1) — Official Release
+# 🚀 TeleportMod v1.3.6 (Fabric 1.21.Х) - Official Release
 
 Stable global release artifact. Fully compatible with Fabric API on the 1.21.1 branch layout.
 
