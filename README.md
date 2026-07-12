@@ -4,7 +4,7 @@ Stable global release artifact. Fully compatible with Fabric API on the 1.21.1 b
 
 ### 🎯 Key Enhancements in this Version:
 *   **Zero-Delay RTP Engine:** Server packets are dispatched instantly with no client-side countdown blocks to prevent millisecond lag desyncs.
-*   **Dynamic Localization Adapter:** Automatically adapts to any active client language framework (`en_us`, `ru_ru`, `sv_se`, etc.) via standard native game hooks.
+*   **Dynamic Localization Adapter:** Automatically adapts to any active client language framework (`en_us`, `ru_ru`.) via standard native game hooks.
 *   **Dynamic Warp Configuration Layout:** Integrated clipboard injection framework allowing you to easily add or delete macro points on the fly.
 *   **Encapsulated Reflection Core:** Re-engineered internal layout utilizing dynamic method reflection to guarantee 100% stability.
 
