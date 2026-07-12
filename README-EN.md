@@ -1,4 +1,5 @@
-**Languages / Языки:** [English](README.md) | [Русский](README-RU.md)
+🌐 **Languages / Языки:** [English](README-EN.md) | [Русский](README.md)
+
 # TeleportMod v1.3.6 (Minecraft 1.21.X)
 
 A Minecraft mod that binds common teleportation commands to hotkeys. 
