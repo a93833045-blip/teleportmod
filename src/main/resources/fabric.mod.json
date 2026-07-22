@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "teleportmod",
-  "version": "1.3.5",
+  "version": "1.4.0",
   "name": "Teleport Mod",
-  "description": "Удобные макрос-телепорты с кастомным кулдауном RTP и авто-стадиями отката.",
+  "description": "Продвинутые макрос-телепорты с авто-буфером TPA, умным светофором онлайна и динамическим ТАБ-меню.",
   "authors": [ "ydjs" ],
   "contact": { "sources": "https://github.com" },
   "license": "MIT",
