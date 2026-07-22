@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "teleportmod",
+  "version": "1.4.0",
+  "name": "Teleport Mod",
+  "description": "Продвинутые макрос-телепорты с авто-буфером TPA, умным светофором онлайна и динамическим ТАБ-меню.",
+  "authors": [ "ydjs" ],
+  "contact": { "sources": "https://github.com" },
+  "license": "MIT",
+  "icon": "assets/teleportmod/icon.png",
+  "environment": "client",
+  "entrypoints": { "client": [ "net.teleportmod.TeleportModClient" ] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "fabric-api": "*" }
+}
