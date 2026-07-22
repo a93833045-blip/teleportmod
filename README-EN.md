@@ -22,7 +22,7 @@ Fabric client-side mod for fast, keybound teleportation and warp management, fea
 | **R** / **К** | `/rtp` | Random teleport (20s cooldown). |
 | **C** / **С** | `/spawn` | Fast spawn. |
 | **P** / **З** | `/warp` | Warp menu (hold) / Quick teleport (tap). |
-| **B** / **И** | `/tpa` | **[NEW]** Intelligent TPA engine. |
+| **B** / **И** | `/tpa` | **[1.4.0]** Intelligent TPA engine. |
 
 ---
 
