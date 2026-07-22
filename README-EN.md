@@ -1,45 +1,49 @@
-🌐 **Languages / Языки:** [English](README-EN.md) | [Русский](README.md)
+🌐 **Languages / Языки:** English | [Русский](README.md)
 
-# TeleportMod v1.3.6 (Minecraft 1.21.X)
+# TeleportMod v1.4.0 (Minecraft 1.21.X)
 
-A Minecraft mod that binds common teleportation commands to hotkeys. 
+Fabric client-side mod for fast, keybound teleportation and warp management, featuring `/tpa` support.
 
-> ⚠️ **Requirement:** This mod requires [Fabric API](https://modrinth.com) to function.
-
-## 🕹️ Controls & Features
-
-* **Double-Press Activation:** All commands listed below trigger only via a **double-press** of the designated key.
-* **Guide Review:** You can always re-read this user guide anytime directly inside the mod's settings menu.
-
-### Hotkeys and Commands
-
-| Command | Default Key | Description |
-| :--- | :---: | :--- |
-| `/home o` | **`O`** (Ru: `Щ`) | Teleports to home point **o**. *(Note: You must name/change your home point to **O** for this to work).* |
-| `/rtp` | **`R`** (Ru: `К`) | Random teleportation. Has a 20-second cooldown by default *(customizable in the `M` menu)*. |
-| `/spawn` | **`C`** (Ru: `С`) | Teleports you to the world spawn point. |
-| `/warp` | **`P`** (Ru: `З`) | Teleports you to a specific warp point *(defaults to a village)*. |
+> ⚠️ **Requirement:** **[Fabric API](https://modrinth.com)**.
 
 ---
 
-## 🗺️ Warp Selection Menu
+## 🕹 Features (Version 1.4.0)
 
-* **Open Menu:** Hold **`P`** to display the warp selection interface.
-* **Teleport:** Release **`P`** to instantly teleport to the highlighted warp.
-* **Management:** You can add or remove warps directly within the settings.
-* **Navigation:** Use the **Left** and **Right** arrow keys for precise warp deletion.
+* **Double-Tap:** Critical commands (O, R, C) require a double-tap (400ms).
+* **Safety:** Macros auto-stop when GUI is open.
+* **Actionbar:** Real-time status notifications.
+
+### Hotkeys
+
+| Key | Command | Function |
+| :--- | :--- | :--- |
+| **O** / **Щ** | `/home o` | Quick home (rename your home to "o"). |
+| **R** / **К** | `/rtp` | Random teleport (20s cooldown). |
+| **C** / **С** | `/spawn` | Fast spawn. |
+| **P** / **З** | `/warp` | Warp menu (hold) / Quick teleport (tap). |
+| **B** / **И** | `/tpa` | **[NEW]** Intelligent TPA engine. |
 
 ---
 
-## ⚙️ Settings & Configuration
-
-* **Open Settings:** Hold **`M`** for **3 seconds** to open the controls and settings menu.
-* **Navigation:** Use the **Up** and **Down** arrow keys to scroll through the menu options.
-* **Confirm:** Press **`Enter`** to select or confirm an option.
+## 🗺 Warp System (P)
+* **Hold:** Select warps with arrow keys.
+* **Double-Tap:** Instant TP to the first warp.
 
 ---
 
-## 🛠️ Upcoming Features (Future Updates)
+## 👥 TPA Engine & Tracker (B)
+* **Tap:** Player status (3s).
+* **Hold (>300ms):** Player list (select with arrows).
+* **Double-Tap:** Send `/tpa` / `/tp`.
+* **Auto-Scanner:** Strips prefixes (e.g., `[Admin]`).
 
-* `/m` command integration
-* `/tpa` command integration
+---
+
+## ⚙ Config (M)
+* Hold **M** for 3 seconds to open.
+
+---
+
+## 🛠 Roadmap
+* [ ] `/m` (Private message shortcut).
